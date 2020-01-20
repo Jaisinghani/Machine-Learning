@@ -14,14 +14,14 @@ Network Architecture for Super Resolution using Convolutional Neural Networks
 ![2](https://github.com/Jaisinghani/Machine-Learning/blob/master/Super%20Resolution%20using%20CNN%20/images/ModelArch.png)
 
 Input Layer:
-• The input layer consists of image with dimensions (Image_height, Image_width, number of Channels)
-• The input image is convolved with 64kernels with dimensions (3x3 x number of Channels)
+The input layer consists of image with dimensions (Image_height, Image_width, number of Channels)
+The input image is convolved with 64kernels with dimensions (3x3 x number of Channels)
 
 Hidden Layers:
-• The model consists of 8 hidden layers where each layer is a Convolution+ReLU Layer
+The model consists of 8 hidden layers where each layer is a Convolution+ReLU Layer
 
 Output Layer:
-• The output layer consists of sharp image whose dimensions are the same as that of the input image (Image_height, Image_width, number of Channels)
+The output layer consists of sharp image whose dimensions are the same as that of the input image (Image_height, Image_width, number of Channels)
 
 The number of channels will vary with the type of input image (RGB = 3, Grayscale = 1)
 
